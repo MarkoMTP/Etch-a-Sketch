@@ -4,16 +4,17 @@ min-height: 100dvh;
    display: flex;
    justify-content: center;
    align-items: center;
-    
+   flex-direction: column;
+    background: rgb(175, 175, 175);
 }
 
 #container {
-width: 30%;
-height: 50%;
-border:10px rebeccapurple solid;
+width: 40%;
+height: 60%;
+border:10px rgb(0, 0, 0) solid;
 display: flex;
 flex-direction: row;
-
+margin-left: 40px;
 }
 
 .box {
@@ -34,3 +35,29 @@ flex: 1 1 0;
 
 }
 
+.buttons {
+display: flex;
+flex-direction: row;
+}
+
+button {
+display: inline-block;
+vertical-align: middle;
+font-size: 26px;
+font-weight: 600;
+padding: 15px;
+gap: 10px;
+margin: 15px 10px;
+outline: 0;
+border: 0;
+cursor: pointer;
+width: 200px;
+background-color:rgb(236, 117, 117);
+}
+
+h1 {
+font-size: 45px;
+
+
+
+}
