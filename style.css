@@ -1,0 +1,36 @@
+body {
+min-height: 100dvh;
+    height: 100dvh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    
+}
+
+#container {
+width: 30%;
+height: 50%;
+border:10px rebeccapurple solid;
+display: flex;
+flex-direction: row;
+
+}
+
+.box {
+
+    flex-direction: column;
+
+display: flex;
+flex: 1 1 0;
+
+}
+
+.box1 {
+
+
+    
+    display: flex;
+    flex: 1 1 0;
+
+}
+
